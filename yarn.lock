@@ -451,16 +451,16 @@ atob@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.1.tgz#ae2d5a729477f289d60dd7f96a6314a22dd6c22a"
 
-autoprefixer@9.0.2:
-  version "9.0.2"
-  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-9.0.2.tgz#c41947aa155038b3614414dbc58b4e70908af6e0"
+autoprefixer@9.2.0:
+  version "9.2.0"
+  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-9.2.0.tgz#e46f893882b19a160370e7bcd3ec6bbeaace4d10"
   dependencies:
-    browserslist "^4.0.1"
-    caniuse-lite "^1.0.30000865"
+    browserslist "^4.2.1"
+    caniuse-lite "^1.0.30000890"
     normalize-range "^0.1.2"
     num2fraction "^1.2.2"
-    postcss "^7.0.2"
-    postcss-value-parser "^3.2.3"
+    postcss "^7.0.5"
+    postcss-value-parser "^3.3.1"
 
 aws-sign2@~0.6.0:
   version "0.6.0"
@@ -1121,13 +1121,13 @@ browserify-zlib@^0.1.4:
   dependencies:
     pako "~0.2.0"
 
-browserslist@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.0.1.tgz#61c05ce2a5843c7d96166408bc23d58b5416e818"
+browserslist@^4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.2.1.tgz#257a24c879d1cd4016348eee5c25de683260b21d"
   dependencies:
-    caniuse-lite "^1.0.30000865"
-    electron-to-chromium "^1.3.52"
-    node-releases "^1.0.0-alpha.10"
+    caniuse-lite "^1.0.30000890"
+    electron-to-chromium "^1.3.79"
+    node-releases "^1.0.0-alpha.14"
 
 buffer-alloc-unsafe@^1.1.0:
   version "1.1.0"
@@ -1238,9 +1238,9 @@ camelcase@^2.0.0:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-2.1.1.tgz#7c1d16d679a1bbe59ca02cacecfb011e201f5a1f"
 
-caniuse-lite@^1.0.30000865:
-  version "1.0.30000865"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000865.tgz#70026616e8afe6e1442f8bb4e1092987d81a2f25"
+caniuse-lite@^1.0.30000890:
+  version "1.0.30000890"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000890.tgz#86a18ffcc65d79ec6a437e985761b8bf1c4efeaf"
 
 capture-stack-trace@^1.0.0:
   version "1.0.0"
@@ -2071,9 +2071,9 @@ ecc-jsbn@~0.1.1:
   dependencies:
     jsbn "~0.1.0"
 
-electron-to-chromium@^1.3.52:
-  version "1.3.52"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.52.tgz#d2d9f1270ba4a3b967b831c40ef71fb4d9ab5ce0"
+electron-to-chromium@^1.3.79:
+  version "1.3.79"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.79.tgz#774718f06284a4bf8f578ac67e74508fe659f13a"
 
 elliptic@^6.0.0:
   version "6.4.0"
@@ -4752,9 +4752,9 @@ node-pre-gyp@^0.10.0:
     semver "^5.3.0"
     tar "^4"
 
-node-releases@^1.0.0-alpha.10:
-  version "1.0.0-alpha.10"
-  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.0.0-alpha.10.tgz#61c8d5f9b5b2e05d84eba941d05b6f5202f68a2a"
+node-releases@^1.0.0-alpha.14:
+  version "1.0.0-alpha.14"
+  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.0.0-alpha.14.tgz#da9e2780add4bbb59ad890af9e2018a1d9c0034b"
   dependencies:
     semver "^5.3.0"
 
@@ -5325,6 +5325,10 @@ postcss-value-parser@^3.2.3:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-3.3.0.tgz#87f38f9f18f774a4ab4c8a232f5c5ce8872a9d15"
 
+postcss-value-parser@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-3.3.1.tgz#9ff822547e2893213cf1c30efa51ac5fd1ba8281"
+
 postcss@^5.0.0, postcss@^5.0.14, postcss@^5.0.19, postcss@^5.0.4, postcss@^5.2.0, postcss@^5.2.12:
   version "5.2.17"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-5.2.17.tgz#cf4f597b864d65c8a492b2eabe9d706c879c388b"
@@ -5334,13 +5338,21 @@ postcss@^5.0.0, postcss@^5.0.14, postcss@^5.0.19, postcss@^5.0.4, postcss@^5.2.0
     source-map "^0.5.6"
     supports-color "^3.2.3"
 
-postcss@^7.0.0, postcss@^7.0.2:
+postcss@^7.0.0:
   version "7.0.2"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.2.tgz#7b5a109de356804e27f95a960bef0e4d5bc9bb18"
   dependencies:
     chalk "^2.4.1"
     source-map "^0.6.1"
     supports-color "^5.4.0"
+
+postcss@^7.0.5:
+  version "7.0.5"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.5.tgz#70e6443e36a6d520b0fd4e7593fcca3635ee9f55"
+  dependencies:
+    chalk "^2.4.1"
+    source-map "^0.6.1"
+    supports-color "^5.5.0"
 
 prelude-ls@~1.1.2:
   version "1.1.2"
@@ -6372,6 +6384,12 @@ supports-color@^3.2.3:
 supports-color@^5.3.0, supports-color@^5.4.0:
   version "5.4.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-5.4.0.tgz#1c6b337402c2137605efe19f10fec390f6faab54"
+  dependencies:
+    has-flag "^3.0.0"
+
+supports-color@^5.5.0:
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-5.5.0.tgz#e2e69a44ac8772f78a1ec0b35b689df6530efc8f"
   dependencies:
     has-flag "^3.0.0"
 
